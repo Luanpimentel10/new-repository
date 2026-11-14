@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* background-color: #121212; /*
+    color: #FFFFFF;
+    background-color: linerar-gradient(180deg,#7F00FF, E100FF);
+
+    /* Usamos FlexBox para centralizar nosso container na tela */
+
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 20px;
+    background-color: #121212;
+}
+
+.container{
+    width: 100%; /*Largura*/
+    max-width: 600px;
+    background-color: #E1E1E1;
+    padding: 30px;
+    border-radius: 16px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
+    text-align: center;
+    border: 3px solid #BB86FC
+}
+
+.perfil_foto{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%; /*deixa a imagem redonda*/
+    border: 3px solid #BB86FC;
+    object-fit: cover; /*Garante que a imagem não fique distorcida*/
+    margin-bottom: 15px;
+}
+
+.perfil{
+    margin-bottom: 30px;
+}
+
+.perfil__texto h1{
+    font-size: 1.8rem;
+    margin-bottom: 5px;
+    color: #9CC4FF;
+}
+
+.perfil__texto p{
+    font-size: 1rem;
+    color: #B7A1FF;
+}
+
+.contact-form-section h2 {
+    margin-bottom: 15px;
+    font-weight: normal;
+}
+    
+.contact-form-section .contact-intro { 
+  margin-bottom: 10px;
+}
+
+.grupo1 input {
+    border-radius: 7px;
+    height: 25px;
+    border-style:double;
+    border: solid 2px #acacac;
+    margin-bottom: 2px;
+}
+
+.grupo2 input{
+    border-radius: 7px;
+    height: 25px;
+    border-style:double;
+    border: solid 2px #acacac;
+    margin-bottom: 2px;
+}
+
+.grupo3 textarea {
+    border-radius: 7px;
+    height: 25px;
+    border-style:double;
+    border: solid 2px #acacac;
+    margin-bottom: 2px;
+}
+
+button{
+    margin-top: 8px;
+    margin-bottom: 4px;
+}
+
+
+button {
+    border-radius: 5px;
+    width: 120px;
+    height: 25px;
+    padding: 4px;
+}
+
+

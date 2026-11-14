@@ -1,0 +1,123 @@
+/* 1.Reset CSS */
+:root{
+    --cor-fundo: #121212;
+    --cor-container: #E1E1E1;
+    --cor-texto-primario: #FFFFFF;
+    --cor-secundario: #A7A7A7;
+    --cor-acento: #BB86FC;
+    --cor-acento-hover: #a56ef1;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* 2. Estilos do corpo da Página (layout centralizado)*/
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* background-color: #121212; /*
+    color: #FFFFFF;
+    background-color: linerar-gradient(180deg,#7F00FF, E100FF);
+
+    /* Usamos FlexBox para centralizar nosso container na tela*/
+
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 20px;
+    /* background-color: linear-gradient(135deg,#0f2027, #2003a43, #2c5364); */
+}
+
+/* 3. Estilos do container Pricipal */
+.container{
+    width: 100%; /*Largura*/
+    max-width: 600px;
+    background-color: #E1E1E1;
+    padding: 30px;
+    border-radius: 16px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
+    text-align: center;
+}
+
+/* 4. Estilos do Cabecalho (Perfil) */
+.Perfil{
+    margin-bottom: 30px;
+}
+
+.Perfil__foto{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%; /*deixa a imagem redonda*/
+    border: 3px solid #BB86FC;
+    object-fit: cover; /*Garante que a imagem não fique distorcida*/
+    margin-bottom: 15px;
+}
+
+.Perfil__texto h1{
+    font-size: 1.8rem;
+    margin-bottom: 5px;
+    color: #9CC4FF;
+}
+
+.Perfil__texto p{
+    font-size: 1rem;
+    color: #B7A1FF;
+}
+
+/*5. Estilos da secão de Links*/
+
+.links h2 {
+     margin-bottom: 25px;
+     color: #D8BFD8;
+}
+
+.links ul {
+    list-style: none;
+}
+
+.links li {
+    margin-bottom: 15px;
+}
+
+.links a {
+    display: block;
+    background-color: #BB86FC;
+    padding: 15px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 15px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    color: #FFFFFF
+}
+
+    .links a:hover {
+        background-color: #a56ef1;
+        transform: scale(1.03);
+    }
+
+    /* 6.Estilos do Rodapé */
+    .Rodapé{
+        margin-top: 30px;
+        font-size: 0.8rem;
+        color: #A7A7A7;
+    }
+
+    /* 7.Classe de Acessibilidade*/
+    .sr-only {
+        position: absolute;
+        width: 1px;
+        height: 1px;
+        padding: 0px;
+        margin: -1px;
+        overflow: hidden;
+        clip:rect(0,0,0,0);
+        white-space: nowrap;
+        border-width: 0;
+    }
+
+
+
+
+
